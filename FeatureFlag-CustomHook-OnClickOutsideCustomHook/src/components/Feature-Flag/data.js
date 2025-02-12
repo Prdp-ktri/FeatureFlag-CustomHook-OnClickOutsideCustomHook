@@ -4,6 +4,7 @@ const dummyAPIResponse = {
   showRandomColorGenrator: true,
   showAccordion: true,
   showTreeView: true,
+  showTabs: true
 };
 
 function featureFlagsDataServiceCall() {

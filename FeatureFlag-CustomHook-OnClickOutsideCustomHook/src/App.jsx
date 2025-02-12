@@ -3,6 +3,7 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import FeatureFlags from "./components/Feature-Flag";
+import UseFetchHookTest from "./components/Feature-Flag/use-fetch/test";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -26,7 +27,7 @@ function App() {
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
       </div>
-      <FeatureFlags />
+      <UseFetchHookTest />
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
