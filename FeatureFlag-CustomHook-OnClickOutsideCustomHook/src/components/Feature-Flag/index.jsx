@@ -2,7 +2,7 @@ import Accordion from "./../../../../../../Accordion-Components/src/components/a
 import LightDarkMode from "./../../../../../../TreeView-MenuUI-RecursiveNavigationMenu/TreeView-MenuUI-RecursiveNavigationMenu/src/components/light-dark-mode";
 // import RandomColor from "./../../../../../../Random-Color-Generator"
 import TicTacToe from "./../../../../../../GithubProfile-SearchAPIAutocomplete-TicTacToe/GithubProfile-SearchAPIAutoComplete-TicTac-Toe/src/components/Github-Profile/tic-tac-toe";
-import TreeView from "./../../../../../../TreeView-MenuUI-RecursiveNavigationMenu/TreeView-MenuUI-RecursiveNavigationMenu/src/components/tree-view";
+// import TreeView from "./../../../../../../TreeView-MenuUI-RecursiveNavigationMenu/TreeView-MenuUI-RecursiveNavigationMenu/src/components/tree-view";
 import { FeatureFlagsContext } from "./context";
 import React, { useContext } from "react";
 
@@ -18,18 +18,18 @@ export default function FeatureFlags() {
       key: "showTicTacToeBoard",
       component: <TicTacToe />,
     },
-    {
-      key: "showRandomColorGenrator",
-      component: <RandomColor />,
-    },
+    // {
+    //   key: "showRandomColorGenrator",
+    //   component: <RandomColor />,
+    // },
     {
       key: "showAccordion",
       component: <Accordion />,
     },
-    {
-      key: "showTreeView",
-      component: <TreeView menus={menus} />,
-    },
+    // {
+    //   key: "showTreeView",
+    //   component: <TreeView menus={menus} />,
+    // },
   ];
 
   function checkEnabledFlags(getCurrentKeys) {

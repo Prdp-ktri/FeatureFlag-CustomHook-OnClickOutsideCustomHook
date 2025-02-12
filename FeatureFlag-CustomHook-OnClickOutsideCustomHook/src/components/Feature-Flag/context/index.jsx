@@ -1,7 +1,7 @@
 import { createContext, useState } from "react";
 import featureFlagsDataServiceCall from "../data";
 
-export const FeatureFlagsContext = createContext(null);
+export const FeatureFlagsContext = createContext(true);
 
 export default function featureFlagGlobalState({ children }) {
   const [loading, setLoading] = useState(false);
