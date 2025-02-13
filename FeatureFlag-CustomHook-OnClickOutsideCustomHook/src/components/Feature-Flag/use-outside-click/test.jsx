@@ -13,7 +13,7 @@ export default function UseOnClickOutsideTest() {
           <h1>This is a random content</h1>
           <p>
             Please click outside of this to close this. It won't close if you
-            inside of this content.
+            click inside of this content.
           </p>
         </div>
       ) : (
